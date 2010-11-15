@@ -1,0 +1,6 @@
+PROJECT(SRC)
+
+SUBDIRS(comm)
+
+CONFIGURE_FILE(${SRC_SOURCE_DIR}/config.h.in ${SRC_BINARY_DIR}/config.h)
+CONFIGURE_FILE(${SRC_SOURCE_DIR}/Doxyfile.in ${SRC_BINARY_DIR}/Doxyfile)
