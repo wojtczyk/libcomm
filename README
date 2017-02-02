@@ -1,0 +1,19 @@
+libcomm - A cross-platform serial, tcp, udp communication library 
+for Linux, Mac OS X, Windows.
+Started 2005 by Martin Wojtczyk
+
+Dependencies
+============
+
+CMake 2.8
+http://www.cmake.org/
+
+
+Build
+=====
+
+mkdir build
+cd build
+cmake ..
+make
+make install
